@@ -15,8 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/cooper-hewitt": "^4.5.1",
     "gatsby": "^4.8.0",
+    "gatsby-plugin-emotion": "^7.8.0",
+    "gatsby-plugin-typography": "^4.8.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-typography": "^0.16.20",
+    "typeface-cooper-hewitt": "^1.1.13",
+    "typography": "^0.16.21"
   }
 }
