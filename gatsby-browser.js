@@ -1,1 +1,1 @@
-import "@fontsource/cooper-hewitt"
+import "@fontsource/cooper-hewitt";
