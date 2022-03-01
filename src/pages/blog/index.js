@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import {Helmet } from "react-helmet";
 import typography from "../../utils/typography";
 
-import profilPicture from "../../images/houdaïfa_mofril_photo_profil.jpg";
+import profilePicture from "../../images/houdaïfa_mofril_photo_profil.jpg";
 
 const {rhythm, scale} = typography
 
@@ -19,7 +19,28 @@ const BlogList = (props) => {
     return (
         <Layout location={props.location}>
 
-            <Helmet title={siteTitle} />
+            <Helmet title="Blog" />
+            <p
+                css={{
+                    marginTop: rhythm(2/ 4),
+                    marginBottom: rhythm(1.5),
+                }}
+            >
+                <img
+                    src={profilePicture}
+                    alt="Becker's "
+                    css={{
+                        borderRadius: "50%",
+                        float: "left",
+                        marginRight: rhythm(1 / 4),
+                        marginBottom: 0,
+                        width: rhythm(2),
+                        height: rhythm(2),
+                    }}
+                />
+                Blog écrit by{" "}
+                <strong>Houdaïfa Mofril</strong> qui vit ici et là , etc
+            </p>
 
             <ul
                 css={{

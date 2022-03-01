@@ -31,7 +31,7 @@ const Layout = (props) => {
                         lineHeight: scale(2 / 5).lineHeight,
                     }}
                 >
-                    <NoStyleLink to="/">Home</NoStyleLink>
+                    <NoStyleLink to="/" >Home</NoStyleLink>
                 </div>
                 <div
                     css={{
@@ -39,7 +39,7 @@ const Layout = (props) => {
                         marginTop: rhythm(3 / 4),
                         marginRight: rhythm(3 / 4),
                         fontSize: scale(1 / 5).fontSize,
-                        lineHeight: scale(2 / 5).lineHeight,
+                        lineHeight: scale(2 / 4).lineHeight,
                     }}
                 >
                     <NoStyleLink to="/blog/">blog</NoStyleLink>,{" "}
