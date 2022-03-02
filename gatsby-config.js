@@ -5,6 +5,13 @@ module.exports = {
         author:"Houdaïfa Moril",
     },
     plugins: [
+        `gatsby-plugin-sharp`,
+        "gatsby-plugin-emotion",
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-mdx",
+        "gatsby-transformer-sharp",
+        "gatsby-plugin-image",
+
         {
             resolve: "gatsby-source-filesystem",
             options: {
@@ -18,8 +25,5 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
-        "gatsby-plugin-emotion",
-        "gatsby-plugin-react-helmet",
-        "gatsby-plugin-mdx",
     ]
 }

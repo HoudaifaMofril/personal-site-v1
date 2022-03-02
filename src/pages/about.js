@@ -1,12 +1,14 @@
 import * as React from "react";
 import Layout from "../layout";
 import typography from "../utils/typography"
+import {Helmet} from "react-helmet";
 const {rhythm} = typography
 
 
 const AboutPage = () => {
     return (
         <Layout>
+            <Helmet title="About" />
             <h1
                 css={{marginTop: rhythm(2/ 4),}}
             >Salut Internet</h1>

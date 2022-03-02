@@ -55,7 +55,9 @@ const Layout = (props) => {
                         margin: `0 auto`,
                     }}
                 >
-                    <Helmet defaultTitle="" titleTemplate="Houdaïfa Mofril | %s" />
+                    <Helmet defaultTitle="" titleTemplate="Houdaïfa Mofril | %s" >
+                        <html lang='fr'/>
+                    </Helmet>
                     {props.children}
 
                 </div>

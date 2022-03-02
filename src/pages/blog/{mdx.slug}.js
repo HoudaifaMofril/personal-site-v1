@@ -4,6 +4,7 @@ import {graphql} from "gatsby";
 import { Helmet } from "react-helmet";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
+
 import typography from "../../utils/typography"
 
 import profilepic from "../../images/houdaïfa_mofril_photo_profil.jpg";
