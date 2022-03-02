@@ -6,7 +6,7 @@ import typography from "../../utils/typography";
 
 import profilePicture from "../../images/houdaïfa_mofril_photo_profil.jpg";
 
-const {rhythm, scale} = typography
+const { rhythm } = typography
 
 
 const BlogList = (props) => {
@@ -38,8 +38,8 @@ const BlogList = (props) => {
                         height: rhythm(2),
                     }}
                 />
-                Blog écrit by{" "}
-                <strong>Houdaïfa Mofril</strong> qui vit ici et là , etc
+                Blog écrit par{" "}
+                <strong>Houdaïfa Mofril</strong> qui vit et travaille à Limoges.
             </p>
 
             <ul

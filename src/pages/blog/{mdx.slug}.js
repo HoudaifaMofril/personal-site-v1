@@ -11,6 +11,8 @@ import profilepic from "../../images/houdaïfa_mofril_photo_profil.jpg";
 
 const {scale, rhythm} = typography
 
+
+
 const BlogPost = (props) => {
     console.log(props.location)
     return (
@@ -29,6 +31,7 @@ const BlogPost = (props) => {
             >
                 {props.data.mdx.frontmatter.date}
             </p>
+
             <MDXRenderer>
                 {props.data.mdx.body}
             </MDXRenderer>
@@ -55,10 +58,7 @@ const BlogPost = (props) => {
                         height: rhythm(2),
                     }}
                 />
-                <strong>Houdaïfa Mofril</strong>, Limoges.
-                <a href="https://twitter.com/houdaifamofril">
-                    Follow me !
-                </a>
+                <strong>Houdaïfa Mofril</strong>
             </p>
         </Layout>
 
