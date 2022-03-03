@@ -3,6 +3,8 @@ import { Link } from "gatsby";
 import { scale, rhythm } from "../utils/typography";
 import { Helmet } from "react-helmet";
 
+
+
 const NoStyleLink = (props) => (
     <Link css={{ color: `inherit`, textDecoration: `none` }} {...props} />
 )
@@ -15,6 +17,9 @@ const Index = () => {
         <div>
             <Helmet title= "Houdaïfa Mofril | Home" >
                 <html lang='fr'/>
+
+
+
             </Helmet>
 
             <div css={{
@@ -75,8 +80,8 @@ const Index = () => {
                             },
                         }}
                     >
-                        <span css={{ fontWeight: 400 }}>Bienvenue au</span> Domicile Internet Personnel de
-                        <span css={{ fontWeight: 400 }}> Houdaïfa Mofril</span>
+                        <span css={{ fontWeight: 400 }}>Bienvenue au</span> Domicile Internet Personnel
+                        <span css={{ fontWeight: 400 }}> de Houdaïfa Mofril</span>
                     </h1>
                 </div>
                 <div
@@ -90,7 +95,7 @@ const Index = () => {
                         left: rhythm(2.5),
                         fontSize: scale(2 / 5).fontSize,
                         lineHeight: scale(2 / 5).lineHeight,
-                        "@media (min-width: 420px)": {
+                        "@media (min-width: 450px)": {
                             left: rhythm(1.5),
                             transform: `none`,
                         },
@@ -107,10 +112,15 @@ const Index = () => {
                         zIndex: 10,
                         fontSize: scale(2 / 5).fontSize,
                         lineHeight: scale(2 / 5).lineHeight,
+                        "@media (max-width: 450px)": {
+                            display:"flex",
+                            flexDirection:"column",
+                        },
                     }}
                 >
 
-                    <NoStyleLink to="/blog/">blog</NoStyleLink>,{" "}
+                    <NoStyleLink to="/blog/">blog,</NoStyleLink>{" "}
+                    <NoStyleLink to="/projets/">projets,</NoStyleLink>{" "}
                     <NoStyleLink to="/about/">about</NoStyleLink>
 
                 </div>

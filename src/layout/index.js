@@ -28,7 +28,7 @@ const Layout = (props) => {
                         marginTop: rhythm(3 / 4),
                         marginLeft: rhythm(3 / 4),
                         fontSize: scale(1 / 5).fontSize,
-                        lineHeight: scale(2 / 5).lineHeight,
+                        lineHeight: scale(0.2).lineHeight,
                     }}
                 >
                     <NoStyleLink to="/" >Home</NoStyleLink>
@@ -39,10 +39,11 @@ const Layout = (props) => {
                         marginTop: rhythm(3 / 4),
                         marginRight: rhythm(3 / 4),
                         fontSize: scale(1 / 5).fontSize,
-                        lineHeight: scale(2 / 4).lineHeight,
+                        lineHeight: scale(0.2).lineHeight,
                     }}
                 >
-                    <NoStyleLink to="/blog/">blog</NoStyleLink>,{" "}
+                    <NoStyleLink to="/blog/">blog,</NoStyleLink>{" "}
+                    <NoStyleLink to="/projets/">projets,</NoStyleLink>{" "}
                     <NoStyleLink to="/about/">about</NoStyleLink>
                 </div>
                 <div

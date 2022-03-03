@@ -5,6 +5,11 @@ module.exports = {
         author:"Houdaïfa Moril",
     },
     plugins: [
+        "gatsby-plugin-emotion",
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-image",
+        "gatsby-transformer-sharp",
+        "gatsby-plugin-sharp",
         {
             resolve: "gatsby-plugin-mdx",
             options: {
@@ -14,7 +19,8 @@ module.exports = {
                         options: {
                             maxWidth: 800,
                         }
-                    }
+                    },
+
                 ]
             }
         },
@@ -31,10 +37,21 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
-        "gatsby-plugin-emotion",
-        "gatsby-plugin-react-helmet",
-        "gatsby-plugin-image",
-        "gatsby-transformer-sharp",
-        "gatsby-plugin-sharp",
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                icon: "src/images/favicon.png",
+            },
+        },
+        {
+            resolve: "gatsby-plugin-google-analytics",
+            options: {
+                trackingId: "UA-142514199-2", // Defines where to place the tracking script - `true` in the head and `false` in the body
+                head: true, // Place the tracking script in the head (instead of in the body)
+                anonymize: true, // Setting this parameter is also optional
+                respectDNT: true, // (optional) Respect user's Do Not Track setting
+            },
+        },
+
     ]
 }

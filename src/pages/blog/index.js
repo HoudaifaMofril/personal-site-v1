@@ -19,7 +19,12 @@ const BlogList = (props) => {
     return (
         <Layout location={props.location}>
 
-            <Helmet title="Blog" />
+            <Helmet title="Blog">
+
+                <meta name="icon" href="../../images/favicon.png" />
+
+
+            </Helmet>
             <p
                 css={{
                     marginTop: rhythm(2/ 4),
