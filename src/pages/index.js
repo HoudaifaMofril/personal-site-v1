@@ -76,6 +76,7 @@ const Index = () => {
                             lineHeight: 1.1,
                             "@media (min-width: 420px)": {
                                 fontSize: scale(7 / 5).fontSize,
+
                             },
                             "@media (min-width: 768px)": {
                                 fontSize: scale(10 / 5).fontSize,
@@ -101,6 +102,7 @@ const Index = () => {
                             left: rhythm(1.5),
                             transform: `none`,
                         },
+
                     }}
                 >
                     <NoStyleLink to="/">Home</NoStyleLink>
@@ -118,6 +120,10 @@ const Index = () => {
                             display:"flex",
                             flexDirection:"column",
                         },
+                        "@media (max-height: 560px)": {
+                            lineHeight: scale(0.2).lineHeight,
+                        },
+
                     }}
                 >
 
