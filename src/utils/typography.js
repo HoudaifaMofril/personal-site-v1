@@ -2,8 +2,8 @@ const Typography = require("typography")
 
 let theme = {
     baseFontSize: `18px`,
-    headerFontFamily: [ `Montserrat`],
-    bodyFontFamily: [ `Montserrat`],
+    headerFontFamily: [ `Montserrat`, `Cooper-Hewitt`],
+    bodyFontFamily: [ `Montserrat`, `Cooper-Hewitt`],
 
     baseLineHeight: 1.45,
     blockMarginBottom: 0.85,
