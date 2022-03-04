@@ -18,6 +18,7 @@
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@fontsource/cooper-hewitt": "^4.5.1",
+    "@fontsource/montserrat": "^4.5.5",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^4.8.0",
@@ -38,7 +39,6 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.20",
-    "typeface-cooper-hewitt": "^1.1.13",
     "typography": "^0.16.21"
   }
 }
