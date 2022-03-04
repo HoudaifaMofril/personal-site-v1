@@ -40,7 +40,11 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                icon: "src/images/favicon.png",
+                name: "Houdaïfa Mofril",
+                short_name: "Site personnel",
+                icon: "static/logo.png",
+                start_url: "/",
+                display: "minimal-ui",
             },
         },
         {
