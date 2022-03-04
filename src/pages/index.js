@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import { scale, rhythm } from "../utils/typography";
 import { Helmet } from "react-helmet";
 import "@fontsource/montserrat";
+import "@fontsource/montserrat/700.css";
 
 
 
