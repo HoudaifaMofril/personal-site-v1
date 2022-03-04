@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { scale, rhythm } from "../utils/typography";
 import { Helmet } from "react-helmet";
+import "@fontsource/montserrat";
 
 
 

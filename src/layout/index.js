@@ -5,6 +5,7 @@ import Helmet from "react-helmet"
 import typography from "../utils/typography"
 const rhythm = typography.rhythm
 const scale = typography.scale
+import "@fontsource/montserrat";
 
 const NoStyleLink = (props) => (
     <Link css={{ color: `inherit`, textDecoration: `none` }} {...props} />
