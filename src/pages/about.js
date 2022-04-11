@@ -16,7 +16,7 @@ const AboutPage = () => {
                 <h1
                     css={{marginTop: rhythm(2/ 4),}}
                 >Salut Internet</h1>
-                <p>Je m'appelle Houdaïfa. Je suis Développeur Web et d'Applications.</p>
+                <p>Je m'appelle Houdaïfa. Je suis Développeur Web.</p>
                 <p>Je suis né, j'ai grandi et j'habite dans <a href="https://www.limoges.fr" target="_blank" rel="noreferrer">une ville magnifique du centre-ouest de la France.</a></p>
                 <p>Après des études en marketing, je me suis intéressé à la programmation informatique.</p>
                 <p>Je suis passionné par les relations humaines. Alors j'ai commencé <a href="https://www.institut-repere.com/" target="_blank" rel="noreferrer">mon cursus PNL</a>, l'autre programmation, que je finirais pour sûr.</p>
